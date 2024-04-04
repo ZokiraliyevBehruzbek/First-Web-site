@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    background: url(../img/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #671Dff68;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 35px;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.1s;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-icon {
+    width: 20px;
+    height: 20px;
+}
+.s {
+    margin-top: 10px;
+    width: 800px;
+    height: 3px;
+    background: #fff;
+}
+.navbar {
+    margin-left: 200px;
+}
+nav ul li:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.list {
+    width: 80px;
+    height: 80px;
+    background: rgba(102, 97, 246, 0.4);
+    border-radius: 5px;
+    border: 1px solid white;
+    backdrop-filter: 50px;
+    position: absolute;
+    transition: all 1s;
+    right: 102px;
+    top: 50px;
+}
+.icon {
+    color: white;
+    width: 70px;
+    height: 70px; 
+    transform: translateX(5px) translateY(5px);  
+}
+.list:hover {
+    background: rgba(102, 97, 246, 1.9);
+}
+.blok {
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 370px;
+    height: 440px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: rgba(102, 97, 246, 0.4);
+    backdrop-filter: 100px;
+}
+.s-icon {
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    transform: translateX(100px) translateY(70px);    
+}
+.s-title {
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 120px;
+    font-size: 70px;
+}
+.title-blok {
+    position: absolute;
+    right: 230px;
+    bottom: 300px;
+    color: #fff;
+}
+.title {
+    padding-bottom: 20px;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+.title-2 {
+    font-size: 20px;
+}
+.online {
+    position: absolute;
+    top: 230px;
+    right: 0;
+    width: 40px;
+}
+.brand {
+    border: 1px solid #fff;
+    position: absolute;
+    transition: all 0.5s;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.brand:hover {
+    width: 120px;
+    margin-left: -80px;
+}
+ion-icon {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+}
+.pp {
+    display: flex;
+    animation: pp 10s linear infinite;
+}
+@keyframes pp {
+    0% {
+        transform: translateX(-1040px); 
+    }
+    100% {
+        transform: translateX(1400px);
+    }
+}
+.box {
+    width: 200px;
+    height: 110px;
+    margin: 20px;
+    border-radius: 30px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background: rgba(102, 97, 246, 0.4);
+    display: inline-block;
+}
+.box {
+    font-size: 19px;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+.pp-icon {
+    font-size: 25px;
+}
+.num {
+    font-size: 25px;
+}
